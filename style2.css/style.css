@@ -1,0 +1,308 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-size: 100%;
+}
+
+/* header */
+
+header{
+    height: 70px;
+    background-color:whitesmoke;
+  
+}
+
+.anchor{
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+   
+
+}
+
+a{  
+
+    font-size: larger;
+    /* border:1.5px solid black;  */
+    color: brown;
+    background-color: blanchedalmondbl;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 10px;
+    
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s ease-in-out;
+}
+
+/* About me */
+/* #image{
+    border: 10px solid  black;
+    margin-left: 20px;
+}
+
+#name{
+    margin-left: 150px;
+    margin-bottom: 1000px;
+}
+
+.introduction{
+    border: 1px solid red;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 630px;
+    margin-right: 50px;
+    margin-top: 150px;
+    line-height: 25px;
+   
+} */
+.introduction{
+    height: 500px;
+    margin-right: 50px;
+    margin-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* border: 1px solid red; */
+    background-color:whitesmoke;
+    box-shadow: 6px 6px 6px black;
+    overflow: hidden;
+
+    box-sizing: border-box;
+}
+.introduction #photo{
+    margin-left: 100px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: 10px solid black;
+    border-top: none;
+    border-right: none;
+    padding: 10px 10px;
+}
+
+.introduction .about{
+    /* border: 1px solid red; */
+    margin-right: 100px;
+    margin-left: 550px;
+    line-height: 30px;
+}
+
+.introduction #name{
+    /* border: 1px solid red;
+     */
+    margin-left: 700px
+}
+.introduction .about #intro{
+    margin-top: 50px;
+    color: brown;
+}
+.introduction .about #resume{
+    /* border: 1px solid red; */
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    border-radius: 0;
+    color:brown;
+
+
+}
+
+/* Education*/
+
+#heading{
+    text-align: center;
+    
+    /* border: 1px solid red; */
+    
+    margin-right: 800px;
+    margin-top: 150px;
+   
+}
+
+
+.education{
+    float: right;
+    margin-right: 150px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    
+
+}
+
+.education .college{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    box-shadow: 7px 5px 5px burlywood;
+    width: 20%;
+    float: right;
+    margin-left:46px;
+    
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 23px;
+    height: 170px;
+} 
+
+  .skills{
+    /* border: 1px solid red; */
+   
+     /* border: 1px solid red;  */
+    padding-top: 400px;
+    margin-left: 160px;
+    margin-right: 150px;
+} 
+
+.skills .skill{
+    box-shadow: 7px 5px 5px burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    width: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 70px;
+    padding-bottom: 80px;
+    padding-right: 50px;
+    height: 130px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+}
+
+.skills .skill h3{
+    text-align: center;
+
+}
+.Experience{
+    /* border: 1px solid red; */
+    
+    margin-top: 400px;
+    margin-left: 160px ;
+}
+
+.Experience .course .courses{
+    box-shadow: 7px 5px 5px burlywood;
+    width: 30%;
+    float: right;
+    line-height: 20px;
+    /* margin-left: 10px; */
+    margin-top: 50px;
+    margin-right: 145px;
+ 
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    padding-right: 30px;
+    padding-bottom: 250px;
+    height: 130px;
+    
+}
+.Experience .course .courses #training{
+    text-align: center;
+}
+
+.Experience .course .courses .p1-box{
+    line-height: 60px;
+}
+
+/* Awards and Achievements */
+.awards{
+    /* border: 1px solid red; */
+    /* width: 25%; */
+    margin-top: 570px;
+    margin-left: 150px;
+}
+
+.awards .achievements{
+    border: 8px solid burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    width: 800px;
+    float: right;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 100px;
+    padding-left: 70px;
+    padding-right: 100px; 
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+    height:250px;
+    line-height: 40px;
+}
+/* footer */
+
+footer{
+    /* width: 25%; */
+ 
+    height: 170px;
+    margin-top: 500px;
+    /* margin-left: 100px; */
+    background-color: black;
+    color:white;
+    background-size: 100%;
+    margin-right: 30px;
+    
+    /* border: 1px solid red; */
+  
+
+}
+
+footer .photo{
+   margin-left: 100px;
+  
+
+}
+footer .photo .box1{
+    /* border: 1px solid red; */
+    margin-right: 180px;
+    float: left;
+   
+   
+
+}
+footer .photo .box1 #image{
+    margin-right: 20px;
+    
+}
+
+footer .photo .box1 #image1{
+    margin-right: 20px;
+}
+footer .photo .box1 #image2{
+    margin-right: 20px;
+}
+
+
+footer .photo #linkedln{
+    /* border: 1px solid red;
+     */
+    background-color:white;
+}
+footer #contact{
+    /* border: 1px solid red; */
+    margin-left: 150px;
+   
+}
+
+footer .photo #linkedln:hover{
+    color: black;
+
+}
+footer .photo .copyright{
+    /* border: 1px solid red; */
+    text-align: center;
+    color: blanchedalmond;
+    
+   
+}
+
+
+
+
+
+
+    
